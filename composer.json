@@ -1,0 +1,53 @@
+{
+    "name": "zaghadon/laravel-social",
+    "description": "A full and simple Toolkit Package for instantly adding Social Features to Laravel Project [Adapted From Miladimos]",
+    "homepage": "https://github.com/zaghadon/laravel-social",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "laravel-package",
+        "laravel-social",
+        "laravel support",
+        "lumen packages",
+        "laravel packages",
+        "lumen support",
+        "like",
+        "subscribe",
+        "bookmark",
+        "laravel-like",
+        "laravel-follow",
+        "laravel-bookmark",
+        "laravel-comment"
+
+    ],
+    "authors": [
+        {
+            "name": "Nzagha David Eze",
+            "email": "nzaghad@topazdom.com",
+            "role": "Developer and Maintainer",
+            "homepage": "https://nzaghadavid.com"
+        },
+        {
+            "name": "Miladimos",
+            "email": "message.tome1331@gmail.com",
+            "role": "initiator",
+            "homepage": "https://github.com/zaghadon"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zaghadon\\Social\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zaghadon\\Social\\Providers\\SocialServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=7.4|^8.0"
+    },
+    "license": "MIT"
+}
