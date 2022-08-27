@@ -1,6 +1,6 @@
 <?php
 
-namespace Zaghadon\Social\Contracts;
+namespace Zaghadon\Social\Contracts\Comment;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
