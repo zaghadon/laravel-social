@@ -3,7 +3,6 @@
 namespace Zaghadon\Social\Traits\Comment;
 
 use Zaghadon\Social\Models\Comment;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait Commentor
